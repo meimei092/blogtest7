@@ -4,15 +4,6 @@ layout: default
 
 # 投稿一覧
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
